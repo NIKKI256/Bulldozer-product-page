@@ -1,0 +1,336 @@
+*{
+    outline:none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+.content_header{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.content_header img{
+    width: 100%;
+}
+
+.main_content{
+    margin-top:2%;
+    width: 100%;
+    height: 500px;
+}
+
+.content{
+    margin: auto;
+    width: 70%;
+}
+
+.content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.buttons_and_haract{
+    margin-top: 2%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+}
+
+.buttons span{
+    cursor: default;
+}
+
+.btn{
+    width: 25%;
+}
+
+.btn input{
+    flex-wrap: wrap;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #e9e8e8;
+    cursor:pointer ;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    white-space: normal;
+    padding: 2px;
+}
+
+.btn input:hover{
+    background-color: #c0c0c0;
+}
+
+.haract{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    height: auto;
+}
+
+.slide{
+    width: 50%;
+}
+
+.slide img{
+    height: 50%;
+    width: 370px;
+}
+
+.opis_haract{
+    margin-left: 0.9%;
+    width: 49.5%;
+}
+
+.block_left{
+    width: 60%;
+    height: 100%;
+}
+
+.block_left span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.block_left{
+    font-size: 1.2vw;
+    width: 65%;
+    height: auto;
+}
+
+.block_right{
+    text-align: right;
+    float: right;
+    width: 42%;
+}
+
+.block_bottom{
+    font-size: 1.2vw;
+    width: 200%;
+    margin-left: -102%;
+}
+
+.btn_yellow {
+    background-color: #eccb0c;
+    border: none;
+    color:white;
+    padding: auto;
+    height: 40px;
+    width: 100%;
+    font-size: 1.4vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blocks_contacts{
+    width: 100%;
+    display: flex;
+}
+
+.block_left_contact{
+    text-align: left;
+    float: left;
+    width: 48%;
+}
+
+.block_right_contact{
+    text-align: left;
+    float: right;
+    width: 48%;
+    margin-left: 3.3%;
+}
+
+.top_text {
+    width: 97%;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    background-color:#f1f1f1 ;
+    border-left: solid 2px #e3c501;
+}
+
+
+.block_left_contact input[type="text"]{
+    width: 100%;
+    height: 25px;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.block_left_contact textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.btn_yellow2{
+    background-color: #eccb0c;
+    border: none;
+    color:white;
+    padding: auto;
+    height: 30px;
+    width: 35%;
+    font-size: 1.4vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.map{
+    width: 70%;
+    margin: auto;
+    margin-top: 31%;
+}
+
+.footer{
+    width: 100%;
+}
+
+.content_footer{
+    margin: auto;
+    margin-top: 0.5%;
+    width: 70%;
+    height: 35px;
+    background-color:#ffd800 ;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+@media only screen 
+and (min-device-width : 360px)and (max-device-width : 568px) {
+
+    .content_header{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content{
+        margin: auto;
+        width:100%;
+    }
+
+    .btn input{
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .haract{
+        display: block;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .opis_haract{
+        margin-left: 0;
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+    .block_left{
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .block_left_contact input[type="text"] {
+        width: 99%;
+        height: 25px;
+        margin-left: 0;
+    }
+
+    .block_left_contact textarea {
+        width: 99.5%;
+        height: 100px;
+    }
+
+    .block_right{
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .block_bottom{
+        text-align: left;
+        font-size: 1em;
+        width: 100%;
+        margin: 0;
+    }
+
+    .btn_yellow {
+        background-color: #eccb0c;
+        border: none;
+        color:white;
+        height: 40px;
+        width:100%;
+        font-size: 1.3em;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        padding-left: 2%;
+        float: left;
+    }
+
+    .blocks_contacts{
+        display: block;
+    }
+
+    .block_left_contact{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0%;
+    }
+
+    .block_right_contact{
+        width: 100%;
+    }
+
+    .btn_yellow2{
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .top_text {
+        width: 96%;
+        margin-top: 2%;
+        border: none;
+        text-align: center;
+    }
+
+   .map{
+       width: 100%;
+   }
+
+   .content_footer{
+       width: 100%;
+   }
+}
